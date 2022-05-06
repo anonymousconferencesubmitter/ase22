@@ -26,19 +26,6 @@ Alternatively, you can manually install the required libraries (see the contents
 
 **Hardware setup:** Training the DNN models (self-driving cars and autoencoders) on our datasets is computationally expensive. Therefore, we recommend using a machine with a GPU. In our setting, we ran our experiments on a machine equipped with a AMD Ryzen 5 processor, 8 GB of memory, and an NVIDIA GPU GeForce RTX 2060 with 6 GB of dedicated memory.
 
-## Training
-
-### Train the self-driving car models
-
-* Copy the config ``config.py.sample`` into a custom config file, e.g., ``config_my.py``
-* Place the training set under the datasets folder. Set up the parameters under the section `project settings`
-* Configure the parameters under the section `self-driving car model settings`
-* Run the file `self_driving_car_train.py`
-
-## Usage
-
-* Start up [the Udacity self-driving simulator](https://github.com/tsigalko18/udacity-self-driving-car/tree/mc-dropout), choose a scene, and press the Autonomous Mode button. Then, run the file `self_driving_car_drive.py`
-
 ## Replicate ASE 2022 experiments
 
 ### Datasets & Simulator
