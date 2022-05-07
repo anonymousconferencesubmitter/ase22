@@ -32,6 +32,30 @@ Alternatively, you can manually install the required libraries (see the contents
 
 Driving datasets, self-driving car models, and simulator have a combined size of several GBs. The driving simulator, despite open-source, cannot be anonymized. We will make all artifacts available upon paper's acceptance. 
 
+### Mutants
+
+We use the following mutation operators:
+
+* udacity_add_weights_regularisation_mutated0_MP_l1_3_1
+* udacity_add_weights_regularisation_mutated0_MP_l1_l2_3_2
+* udacity_add_weights_regularisation_mutated0_MP_l2_3_0
+* udacity_change_activation_function_mutated0_MP_exponential_4_0
+* udacity_change_activation_function_mutated0_MP_hard_sigmoid_4_0
+* udacity_change_activation_function_mutated0_MP_relu_4_2
+* udacity_change_activation_function_mutated0_MP_selu_4_0
+* udacity_change_activation_function_mutated0_MP_sigmoid_4_3
+* udacity_change_dropout_rate_mutated0_MP_0.125_0.125_6_2
+* udacity_change_dropout_rate_mutated0_MP_1.0_1.0_6_1
+* udacity_change_activation_function_mutated0_MP_softmax_4_4
+* udacity_change_activation_function_mutated0_MP_softsign_4_5
+* udacity_change_activation_function_mutated0_MP_tanh_4_2
+* udacity_change_dropout_rate_mutated0_MP_0.25_0.25_6_7
+* udacity_change_dropout_rate_mutated0_MP_0.75_0.75_6_0
+* udacity_change_label_mutated0_MP_12.5_4
+* udacity_change_label_mutated0_MP_25.0_1
+* udacity_change_loss_function_mutated0_MP_mean_absolute_error_2
+
+
 ### Evaluation Scripts
 
 For replicating the RQs, you can run:
